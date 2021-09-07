@@ -1,0 +1,319 @@
+
+
+@media (max-width:1258px){
+   
+    .create-post{
+   
+        width: 38vw;
+       
+      }
+
+    /* ====POST_SECTIONT==== */
+    .post{
+       width: 37vw;
+      
+   }
+
+}
+
+@media (max-width:1112px){
+
+   .left-section{
+       display: none;
+   }
+
+    
+   /* =====RIGHT_SECTION==== */
+   .right-section{
+       /* background-color: rebeccapurple;
+       border: 1px solid rebeccapurple; */
+       width: 25%;
+     
+   }
+    
+   .right-div{
+       /* margin-right: 1em; */
+       /* padding-right: 5em; */
+   }
+
+   /* ====MIDDLE_SECTION===== */
+  .middle-section{
+      /* margin-left: 3em; */
+      width: 74%;
+  }
+ 
+  .story-img{
+      margin-left: 2em;
+  }
+
+  
+ /* ===create-post-div===  */
+.create-post{
+    padding: 9px;
+  
+    width: 45vw;
+}
+
+.create-post .first-div{
+
+}
+
+.create-post .first-div img{
+
+}
+
+#create-post-input{
+
+}
+
+.create-post .second-div{
+
+}
+
+.create-post .second-div i{
+
+}
+
+.create-post .second-div span{
+    
+}
+
+}
+
+
+
+
+@media (max-width:1103px){
+   
+     /* ====POST_SECTIONT==== */
+     .post{
+        width: 36vw;
+       
+    }
+    
+    .like-cmnt-count span{
+        font-size: 12px;
+    }
+
+
+
+}
+
+
+@media (max-width:1039px){
+   
+    .create-post{
+   
+        width: 48vw;
+       
+      }
+
+    /* ====POST_SECTIONT==== */
+    .post{
+       width: 47vw;
+      
+   }
+
+}
+
+
+@media (max-width:888px){
+   /* ====NAV_SECTION==== */
+    .middle-nav{
+        display: none;
+    }
+
+     /* ====LEFT_SECTION==== */
+  
+
+   /* ====MIDDLE_SECTION===== */
+    .middle-section{
+        width: 100%;
+        /* background-color: rebeccapurple; */
+
+    }
+    
+    .middle-div{
+        /* background-color: rebeccapurple; */
+        padding: 4% 0%;
+    }
+
+
+ /* ===create-post-div===  */
+.create-post{
+     
+     width: 62vw;
+ }
+ 
+ .create-post .first-div{
+ 
+ }
+ 
+ .create-post .first-div img{
+ 
+ }
+ 
+ #create-post-input{
+ 
+ }
+ 
+ .create-post .second-div{
+ 
+ }
+ 
+ .create-post .second-div i{
+ 
+ }
+ 
+ .create-post .second-div span{
+     
+ }
+
+  /* ====POST_SECTIONT==== */
+  .post{
+    width: 60vw;
+   
+  }
+ 
+
+ 
+    /* =====RIGHT_SECTION==== */
+    .right-section{
+        display: none;
+      }
+
+
+}
+
+
+
+@media (max-width:705px){
+  
+    .create-post{
+   
+        width: 74vw;
+       
+      } 
+
+    /* ====POST_SECTIONT==== */
+    .post{
+       width: 72vw;
+      
+   }
+
+
+} 
+
+@media (max-width:593px){
+  
+    .story-img{
+        margin-left: 0.5em;
+    }
+
+    
+    .create-post{
+   
+        width: 83vw;
+       
+      }
+
+      #create-post-input{
+        width: 79vw;
+    }
+
+    /* ====POST_SECTIONT==== */
+    .post{
+       width: 83vw;
+      
+   }
+
+
+}
+
+
+@media (max-width:516px){
+     
+    .story-img{
+        margin-left: 0.5em;
+    }  
+
+    .create-story-img{
+        width:20vw !important;
+      
+        }
+
+        .create-story-img .plus-icon{
+            
+            margin-left: -13vw;
+            
+        }
+
+        .create-story-img h4{
+            margin-top: 16px;
+            font-size: 9px;
+            margin-left: 9px;
+            /* position: absolute; */
+            }
+        
+    
+
+    .story-img{
+        width: 20vw !important;
+     
+        } 
+        
+        .story-img .name{
+            font-size: 11px;
+            margin-top: -4em;
+        }
+
+    .hide-story{
+        /* display: none; */
+    }
+
+    
+    .create-post{
+   
+        width: 83vw;
+       
+      }
+
+      #create-post-input{
+        width: 59vw;
+    }
+
+    /* ====POST_SECTIONT==== */
+    .post{
+       width: 83vw;
+      
+   }
+
+
+}
+
+
+@media (max-width:440px){
+
+    .story-img{
+        width: 23vw !important;
+     
+        } 
+
+    .create-post{
+   
+        width: 98vw;
+       
+      }
+
+      #create-post-input{
+        width: 79vw;
+    }
+
+    /* ====POST_SECTIONT==== */
+    .post{
+       width: 98vw;
+      
+   }
+
+
+}
