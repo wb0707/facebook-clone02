@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-clone</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/solid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="responsive-style.css">
+</head>
+<body>
+    <!-- ---NAV_BAR---- -->
+    <div class="nav-bar">
+        <nav>
+            <!--LEFT NAV-->
+            <div class="left-nav">
+                <!-- <i class="fab fa-facebook"></i> -->
+                <i class="fab fa-facebook-f"></i>
+                <i class="fas fa-search"></i>
+            </div>
+
+            <!--MIDDLE NAV-->
+            <div class="middle-nav">
+
+                <i class="fas fa-home"></i>
+                <i class="fas fa-film"></i>
+                <i class="fas fa-store"></i>
+                <i class="fas fa-users"></i>
+                <i class="fas fa-rss"></i>
+            </div>
+
+            <!--RIGHT NAV-->
+            <div class="right-nav">
+                <i class="fas fa-plus"></i>
+                <i class="fab fa-facebook-messenger"></i>
+                <i class="fas fa-bell"></i>
+                <i class="fas fa-caret-down"></i>
+            </div>
+        </nav>
+    </div>
+
+    <div class="section-body">
+        <!--LEFT SECTION-->
+        <section class="left-section">
+            <div class="left-div">
+                <div>
+                    <ul class="left-ul">
+                        <li><a href="#">
+                            <img src="./member1.jpg" alt="profile" >
+                            <h4>MD Shihab</h4>
+                        </a></li>
+                        <li><a href="#">
+                            <h5>Friends</h5>
+                        </a></li>
+                        <li><a href="#">
+                            <h5>Watch</h5>
+                        </a></li>
+                        <li><a href="#">
+                            <h5>Marketplace</h5>
+                        </a></li>
+                        <li><a href="#">
+                            <h5>Memories</h5>
+                        </a></li>
+                        <li><a href="#">
+                            <i class="fas fa-caret-down"></i>
+                             <span>See more</span>
+                        </a></li>
+                    </ul>
+                    <div class="brdr"></div>
+                    <h3>Your Shortcut</h3>
+                    <ul class="left-ul left-ul2">
+                        <li><a href="#">
+                            <img src="./member2.jpg" alt="picture">
+                            
+                            <h4>Young Coders: Learn Programming (Public Group)</h4>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./member3.jpg" alt="picture">
+                            <h4>Diploma in Engenearing and all Polytechnic...</h4>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./member5.jpg" alt="picture">
+                            <h4>Polytechnic Notice Board (2)</h4>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./member6.jpg" alt="picture">
+                            <h4>Polytechnic BD</h4>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./member7.jpg" alt="picture">
+                            <h4>Dream study in Abroad with Sholarship</h4>
+                        </a></li>
+                    </ul>
+                    <div class="brdr"></div>
+                    <div class="footer">
+                        Privacy  · Terms  · Advertising  · Ad choices   · Cookies . Facebook © 2021
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--MIDDLE SECTION-->
+        <section class="middle-section">
+        
+            <div class="middle-div">
+                <!-- ===STORY DIV=== -->
+                <div class="story-div">
+                    <div class="create-story-img">
+                        <img src="./member1.jpg" alt="profile-pic">
+                        <i class="fas fa-plus plus-icon"></i>
+                        <h4>Create Story</h4>
+                    </div>
+                    <div class="story-img hide-story">
+                         <img class="profile-pic" src="./member2.jpg" alt="pr-pic">
+                        <img class="img" src="./member2.jpg" alt="story">
+                        <h5 class="name"> Md jim </h5>
+
+                    </div>
+                    <div class="story-img"> 
+                        <img class="profile-pic" src="./member3.jpg" alt="pr-pic">
+                        <img class="img" src="./member3.jpg" alt="story">
+                        <h5 class="name"> Abu Sufian </h5>
+                    </div>
+                    <div class="story-img"> 
+                        <img class="profile-pic" src="./member5.jpg" alt="pr-pic">
+                        <img class="img" src="./member5.jpg" alt="story">
+                        <h5 class="name"> Md Sojib </h5>
+                     
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+
+                <!-- ===create-post-div=== -->
+                <div class="create-post">
+                    <div class="first-div">
+                        <img src="./member1.jpg" alt="pr-pic">
+                        <input type="text" name="text" placeholder="Whats on your mind..." id="create-post-input"/>
+                    </div>
+                    <div class="second-div">
+                        <span><i class="fas fa-video"></i> Live Video</span>
+                        <span><i class="fas fa-photo-video"></i> Photo/Video</span>
+                        <span><i class="far fa-laugh-wink"></i> Feeling/Activity</span>
+                    </div>
+                </div>
+
+                <!--===CREATE_ROOM-->
+                <div>
+
+                </div>
+
+                <!--POST_DIV-->
+                <div id="post-main">
+        
+                </div>
+            </div>
+        </section>
+
+    <!--RIGHT SECTION-->
+        <section class="right-section">
+            <div class="right-div">
+            
+                <div>
+                     <h3>Your Pages</h3>
+                    <ul class="left-ul left-ul2">
+                        <li><a href="#">
+                            <img src="./member2.jpg" alt="picture">
+                            
+                            <h4>Random page</h4>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./member3.jpg" alt="picture">
+                            <h4>Rongbaz The Villain</h4>
+                        </a></li>
+                       
+                    </ul>
+                    <div class="brdr"></div>
+                    <h3>Your Contacts</h3>
+                    <ul class="left-ul left-ul2">
+                        <li><a href="#">
+                            <img src="./member2.jpg" alt="picture">
+                            
+                            <h4>MD Jakirul islam</h4>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./member3.jpg" alt="picture">
+                            <h4>MD Soriful islam</h4>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./member5.jpg" alt="picture">
+                            <h4>MD Mominul Islam</h4>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./member6.jpg" alt="picture">
+                            <h4>MD sofikul islam</h4>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./member7.jpg" alt="picture">
+                            <h4>MD Romijul Islam</h4>
+                        </a></li>
+                    </ul>
+                    <div class="brdr"></div>
+                    <h3>Your Conversations</h3>
+                    <ul class="left-ul left-ul2">
+                        <li><a href="#">
+                            <img src="./member2.jpg" alt="picture">
+                            <h4>HSC 2021 batch (Science Groupe)</h4>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./member3.jpg" alt="picture">
+                            <h4>M.K.C SCIENCE BATCH {{{2019}}}</h4>
+                        </a></li>
+                        <li><a href="#">
+                            <img src="./member5.jpg" alt="picture">
+                            <h4>SBGCR (HSC Batch 2022)</h4>
+                        </a></li>
+                     
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
